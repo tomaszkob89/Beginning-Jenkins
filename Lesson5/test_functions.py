@@ -2,7 +2,6 @@ import unittest
 
 from functions import *
 
-
 class TestFunctions(unittest.TestCase):
     """ Test add_values
     """
@@ -19,5 +18,9 @@ class TestFunctions(unittest.TestCase):
     def test_full_name(self):
         self.assertEqual("Doe, John", get_full_name("John", "Doe"))
 
+    def test_full_name_2(self):
+        self.assertEqual("Jan, Brzechwa", get_full_name("Jan", "Brzechwa"))
+
 if __name__ == '__main__':
     unittest.main()
+
