@@ -23,6 +23,8 @@ class TestFunctions(unittest.TestCase):
     def test_full_name_3(self):
         self.assertEqual("Brzechwa, Jan", get_full_name("Jan", "Brzechwa"))
 
+
+
 if __name__ == '__main__':
     unittest.main()
 

@@ -26,6 +26,7 @@ def get_full_name(firstname, lastname):
     firstname: First name e.g. John
     lastname: Last name e.g. Doe
     """
+
     return lastname + ", " + firstname
 
 def main():
