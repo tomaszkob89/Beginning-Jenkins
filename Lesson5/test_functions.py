@@ -19,9 +19,9 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual("Doe, John", get_full_name("John", "Doe"))
 
     def test_full_name_2(self):
-        self.assertEqual("Jan, Brzechwa", get_full_name("Jan", "Brzechwa"))
+        self.assertEqual("Brzechwa, Jan", get_full_name("Jan", "Brzechwa"))
     def test_full_name_3(self):
-        self.assertEqual("Jan, Brzechwa", get_full_name("Jan", "Brzechwa"))
+        self.assertEqual("Brzechwa, Jan", get_full_name("Jan", "Brzechwa"))
 
 if __name__ == '__main__':
     unittest.main()
